@@ -10,14 +10,14 @@ number = float(input('Enter the number: '))
 into_int_number =int(number)
 into_Str_number = str(into_int_number)
 list_number = list(into_Str_number)
-#print(type(into_list_number))
+#print(type(into_list_number))N|
 print(list_number)
 # size = len(into_list_number)
 # print('Length of the list: ', size)
 
 new_list = []
 for i in list_number:
-    new_list.append(int(i))
+    
 print(new_list)
 #print(type(new_list))
 
